@@ -34,7 +34,7 @@ html .content.app-content {
 
 .brand-logo {
     height: 48px;
-    background-image: url("~/assets/images/icon/TDCC_horizontal_icon.jpg");
+    background-image: url("../images/icon/TDCC_horizontal_icon.jpg");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -43,7 +43,7 @@ html .content.app-content {
 .navbar-brand {
     width: 175px;
     height: 48px;
-    background-image: url("~/assets/images/icon/TDCC_horizontal_icon.jpg");
+    background-image: url("../images/icon/TDCC_horizontal_icon.jpg");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
