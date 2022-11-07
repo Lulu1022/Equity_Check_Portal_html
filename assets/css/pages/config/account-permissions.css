@@ -1,0 +1,16 @@
+#UserRole {
+    width: 100px;
+}
+
+td svg {
+    height: 1.5rem !important;
+    width: 1.5rem !important;
+}
+
+td svg:hover {
+    color: #9d9aa9
+}
+
+.modal.show {
+    background-color: rgb(0, 0, 0, 0.4);
+}

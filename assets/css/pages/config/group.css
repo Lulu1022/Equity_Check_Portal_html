@@ -1,0 +1,42 @@
+
+.card .card-title {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color:#6E6B7B;
+}
+
+.card .card-title span {
+    margin: 0 5px;
+}
+
+.card .card-title h4 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.9px;
+    color:#5E5873;
+}
+
+.card .card-title a {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    color:rgb(0, 40, 112, 70%)
+    ;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 16px 20px;
+}
+
+.card-link {
+    font-weight: 600;
+    color:rgb(0, 40, 112, 70%);
+}
+
+.card-link:hover {
+    color:rgb(0, 40, 112, 50%);
+}

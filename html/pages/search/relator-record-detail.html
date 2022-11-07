@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html class="loading" lang="en" data-textdirection="ltr">
+<!-- BEGIN: Head-->
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0,minimal-ui">
+    <meta name="description" content="Vuexy admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
+    <meta name="keywords" content="admin template, Vuexy admin template, dashboard template, flat admin template, responsive admin template, web app">
+    <meta name="author" content="PIXINVENT">
+    <title>Tabs - Vuexy - Bootstrap HTML admin template</title>
+    <link rel="apple-touch-icon" href="../../../assets/images/ico/apple-icon-120.png">
+    <link rel="shortcut icon" type="image/x-icon" href="../../../assets/images/ico/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600" rel="stylesheet">
+
+    <!-- BEGIN: Vendor CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../assets/css/vendors.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../assets/css/core/tables/dataTables.bootstrap5.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../assets/css/core/tables/responsive.bootstrap5.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../assets/css/core/forms/pickers/flatpickr.min.css">
+    <!-- END: Vendor CSS-->
+
+    <!-- BEGIN: Theme CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../../../assets/css/bootstrap-extended.css">
+    <link rel="stylesheet" type="text/css" href="../../../assets/css/colors.css">
+    <link rel="stylesheet" type="text/css" href="../../../assets/css/components.css">
+
+    <!-- BEGIN: Page CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../assets/css/core/menu/menu-types/vertical-menu.css">
+    <link rel="stylesheet" type="text/css" href="../../../assets/css/core/forms/pickers/form-flat-pickr.min.css">
+    <!-- END: Page CSS-->
+
+    <!-- BEGIN: Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../assets/css/style.css">
+    <!-- END: Custom CSS-->
+
+</head>
+<!-- END: Head-->
+
+
+<!-- BEGIN: Body-->
+
+<body class="vertical-layout vertical-menu-modern  navbar-floating footer-static  " data-open="click" data-menu="vertical-menu-modern" data-col="">
+
+    <!-- BEGIN: Header (Shared)-->
+    <nav class="header-navbar navbar navbar-expand-lg align-items-center floating-nav navbar-light navbar-shadow">
+        <div class="navbar-container d-flex content">
+            <div class="bookmark-wrapper d-flex align-items-center">
+                <ul class="nav navbar-nav d-xl-none">
+                    <li class="nav-item"><a class="nav-link menu-toggle is-active" href="./html/ltr/vertical-menu-template/app-chat.html#"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu ficon"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></a></li>
+                </ul>
+            </div>
+            <ul class="nav navbar-nav align-items-center ms-auto">
+                <div class="d-flex flex-column align-items-end mr-10">
+                    <h4 class="m-0">John Doe</h4>
+                    <p class="ft-lt-gray m-0">Admin</p>
+                </div>
+                <li class="nav-item dropdown dropdown-user">
+                    <a class="nav-link dropdown-toggle dropdown-user-link" id="dropdown-user" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        •••</a>
+                    <div class="user-config dropdown-menu dropdown-menu-end" aria-labelledby="dropdown-user">
+                        <a class="dropdown-item" href="#"><i data-feather='refresh-cw'></i>
+                            重設密碼</a>
+                        <a class="dropdown-item" id="logout" href="/html/pages/login/login.html"><i data-feather='log-in'></i>
+                            登出</a>
+                        <a class="dropdown-item" id="login" href="#"><i data-feather='log-out'></i>
+                            登入</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- END: Header (Shared)-->
+
+
+    <!-- BEGIN: Main Menu (Shared)-->
+    <div class="main-menu menu-fixed menu-light menu-accordion menu-shadow expanded" data-scroll-to-active="true" style="touch-action: none; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+        <div class="navbar-header expanded">
+            <ul class="nav navbar-nav flex-row">
+                <li class="nav-item me-auto">
+                    <a class="navbar-brand" href="../../../layout.html">
+                    </a></li>
+                <li class="nav-item nav-toggle"><a class="nav-link modern-nav-toggle pe-0" data-bs-toggle="collapse"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x d-block d-xl-none text-primary toggle-icon font-medium-4"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-disc d-none d-xl-block collapse-toggle-icon primary font-medium-4"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="3"></circle></svg></a></li>
+            </ul>
+        </div>
+        <div class="shadow-bottom" style="display: none;"></div>
+        <div class="main-menu-content ps ps--active-y">
+            <ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">
+                <li class=" navigation-header"><span>主選單</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-horizontal"><circle cx="12" cy="12" r="1"></circle><circle cx="19" cy="12" r="1"></circle><circle cx="5" cy="12" r="1"></circle></svg>
+                </li>
+                <li class=" nav-item has-sub"><a class="d-flex align-items-center"><i data-feather='edit-3'></i><span class="menu-title text-truncate"
+                    >資料輸入</span></a>
+                    <ul class="menu-content">
+                        <li><a class="d-flex align-items-center" href="/html/pages/input/report.html"><em>∙</em><span class="menu-item text-truncate">
+                            報表</span></a>
+                        </li>
+                        <li><a class="d-flex align-items-center" href="/html/pages/input/bank-relator.html"><em>∙</em><span class="menu-item text-truncate" >
+                            銀行金控與關係人</span></a>
+                        </li>
+                        <li class=" nav-item has-sub"><div class="enable-active d-flex align-items-center"><em>∙</em><span class="menu-item text-truncate" >
+                            境外基金匯回控管維護</span></div>
+                                <div><a class="fixed-item d-flex align-items-center" href="/html/pages/input/offshore-found-bank.html"><span class="menu-item text-truncate" >
+                                    銀行資料</span></a>
+                                </div>
+                                <div><a class="fixed-item d-flex align-items-center" href="/html/pages/input/offshore-found-applicant.html"><span class="menu-item text-truncate" >
+                                    申請人資料</span></a>
+                                </div>
+                        </li>
+                        <li><a class="d-flex align-items-center" href="/html/pages/input/general-notification.html"><em>∙</em><span class="menu-item text-truncate" >
+                            四方通報群組</span></a>
+                        </li>
+                        <li><a class="d-flex align-items-center" href="/html/pages/input/loundering-notification-record.html"><em>∙</em><span class="menu-item text-truncate" >
+                            洗錢通報紀錄</span></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class=" nav-item has-sub"><a class="d-flex align-items-center"><i data-feather='search'></i><span class="menu-title text-truncate"
+                    >資料查詢</span></a>
+                    <ul class="menu-content">
+                        <li><a class="d-flex align-items-center" href="/html/pages/search/relator-record.html"><em>∙</em><span class="menu-item text-truncate" >
+                            關係人/群組紀錄</span></a>
+                        </li>
+                        <li><a class="d-flex align-items-center" href="/html/pages/search/audit.html"><em>∙</em><span class="menu-item text-truncate" >
+                            稽核</span></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class=" nav-item has-sub"><a class="d-flex align-items-center"><i data-feather='bell'></i><span class="menu-title text-truncate"
+                    >檢核通報</span></a>
+                    <ul class="menu-content">
+                        <li><a class="d-flex align-items-center" href="/html/pages/inspection-notice/add-new-shareholder.html"><em>∙</em><span class="menu-item text-truncate" >
+                            新增大股東</span></a>
+                        </li>
+                        <li><a class="d-flex align-items-center" href="/html/pages/inspection-notice/insider-balance-comparision.html"><em>∙</em><span class="menu-item text-truncate" >
+                            內部人餘額比對</span></a>
+                        </li>
+                        <li><a class="d-flex align-items-center" href="/html/pages/inspection-notice/three-year-shareholder-balance.html"><em>∙</em><span class="menu-item text-truncate" >
+                            大股東三年餘額</span></a>
+                        </li>
+                        <li><a class="d-flex align-items-center" href="/html/pages/inspection-notice/investment-trust-advisor-equity-review.html"><em>∙</em><span class="menu-item text-truncate" >
+                            投信投顧股權檢核</span></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class=" nav-item has-sub"><a class="d-flex align-items-center"><i data-feather='settings'></i><span class="menu-title text-truncate"
+                    >系統設定</span></a>
+                    <ul class="menu-content">
+                        <li><a class="d-flex align-items-center" href="/html/pages/config/account-permissions.html"><em>∙</em><span class="menu-item text-truncate" >
+                            帳號權限</span></a>
+                        </li>
+                        <li><a class="d-flex align-items-center" href="/html/pages/config/group.html"><em>∙</em><span class="menu-item text-truncate" >
+                            群組</span></a>
+                        </li>
+                        <li><a class="d-flex align-items-center" href="/html/pages/config/mail.html"><em>∙</em><span class="menu-item text-truncate" >
+                            信件相關</span></a>
+                        </li>
+                        <li><a class="d-flex align-items-center" href="/html/pages/config/audit.html"><em>∙</em><span class="menu-item text-truncate" >
+                            稽核</span></a>
+                        </li>
+                        <li><a class="d-flex align-items-center" href="/html/pages/config/sftp.html"><em>∙</em><span class="menu-item text-truncate" >
+                            SFTP相關</span></a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        <div class="ps__rail-x" style="left: 0px; bottom: 0px;"><div class="ps__thumb-x" tabindex="0" style="left: 0px; width: 0px;"></div></div><div class="ps__rail-y" style="top: 0px; height: 549px; right: 0px;"><div class="ps__thumb-y" tabindex="0" style="top: 0px; height: 174px;"></div></div></div>
+    </div>
+    <!-- END: Main Menu (Shared)-->
+
+
+    <!-- BEGIN: Content-->
+    <div class="app-content content ">
+        <div class="content-overlay"></div>
+        <div class="header-navbar-shadow"></div>
+        <div class="content-wrapper p-0">
+            <div class="content-header row">
+                <div class="content-header-left col-md-9 col-12 mb-2">
+                    <div class="row breadcrumbs-top">
+                        <div class="col-12">
+                            <h2 class="content-header-title float-start mb-0">明細</h2>
+                            <div class="breadcrumb-wrapper">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="layout.html">主選單</a>
+                                    </li>
+                                    <li class="breadcrumb-item"><a href="#">資料查詢</a>
+                                    </li>
+                                    <li class="breadcrumb-item"><a href="/html/pages/search/relator-record.html">關係人/群組紀錄</a>
+                                    </li>
+                                    <li class="breadcrumb-item active">明細
+                                    </li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-row-reverse mb-20">
+                <button
+                    type="button"
+                    class="btn btn-outline-primary dropdown-toggle"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                >
+                <i data-feather='printer' class="mr-10"></i>
+                    匯出
+                </button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">下載 PDF</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">列印</a>
+                </div>
+            </div>
+            <div class="content-body">
+                <section id="flatpickr">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex flex-row justify-content-between ">
+                                <h3>同一人或同一關係人持有銀行或金融控股公司股份資料彙整表</h3>
+                                <i data-feather='eye'></i>
+                                <i data-feather='eye-off'></i>
+                            </div>
+                            <div class="d-flex flex-row justify-content-between mt-20">
+                                <div class="d-flex flex-row">
+                                    <p>資料日期：20221007</p>
+                                    <p>公司名稱(代號)：OO公司(9999)</p>
+                                </div>
+                                <p>市場別：上市</p>
+                                <div>
+                                    <p class="mb-0">已發行有表決權股份總數(H)：4,000,000千股(本日)<span class="mr-20 w-100"></span> 單位：千股 </p>
+                                    <p>已發行表決權股份總數(I)：3,000,000千股(前次)</p>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-row align-items-start justify-content-start mt-20">
+                                <p>通報原因：</p>
+                                <div class="radio-in-article col-11 d-flex flex-wrap">
+                                    <div class="col-3 mr-10">
+                                        <input class="form-check-input layout-name" type="radio" id="first-time" name="reason"  data-layout="bordered-layout" checked>
+                                        <label class="form-check-label ml-1" for="relator-isValidable-Y">
+                                            首次申報</label>
+                                    </div>
+                                    <div class="col-3 mr-10">
+                                        <input class="form-check-input layout-name" type="radio" id="first-time" name="reason"  data-layout="bordered-layout">
+                                        <label class="form-check-label ml-1" for="relator-isValidable-Y">
+                                            持股餘額比率累積增加逾1%</label>
+                                    </div>
+                                    <div class="col-3 mr-10">
+                                        <input class="form-check-input layout-name" type="radio" id="first-time" name="reason"  data-layout="bordered-layout">
+                                        <label class="form-check-label ml-1" for="relator-isValidable-Y">
+                                            群組成員異動</label>
+                                    </div>
+                                    <div class="col-3 mr-10">
+                                        <input class="form-check-input layout-name" type="radio" id="first-time" name="reason"  data-layout="bordered-layout">
+                                        <label class="form-check-label ml-1" for="relator-isValidable-Y">
+                                            持股餘額比率超過5%</label>
+                                    </div>
+                                    <div class="col-3 mr-10">
+                                        <input class="form-check-input layout-name" type="radio" id="first-time" name="reason"  data-layout="bordered-layout">
+                                        <label class="form-check-label ml-1" for="relator-isValidable-Y">
+                                            持股餘額比率超過25%</label>
+                                    </div>
+                                    <div class="col-3 mr-10">
+                                        <input class="form-check-input layout-name" type="radio" id="first-time" name="reason"  data-layout="bordered-layout">
+                                        <label class="form-check-label ml-1" for="relator-isValidable-Y">
+                                            持股餘額比率超過50%</label>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!--BEGIN: datatable 關係人群組  -->
+                            <div class="card-datatable">
+                                <table id="test" class="relator-list-table table table-responsive">
+                                    <thead>
+                                        <tr>  
+                                            <th><div style="width: 73px">關係人群組</div></th>
+                                            <th>聯絡人(共同代表人)</th>
+                                            <th>通報原因</th>
+                                            <th><div>持股餘額合計</br>(A)=(C)+(D)+(E)+</br>(F)+(G)</div></th>
+                                            <th><div>持股餘額比率</br>(B)=(A)/(H)</br>(B)=(A)/(I)</div></th>
+                                            <th><div style="width: 73px">保管劃撥</br>帳戶餘額</br>(C)</div></th>
+                                            <th><div style="width: 73px">擔保品</br>餘額</br>(D)</div></th>
+                                            <th><div style="width: 73px">設質餘額</br>(E)</div></th>
+                                            <th><div style="width: 65px">登錄餘額</br>(F)</div></th>
+                                            <th><div style="width: 65px">現股餘額</br>(G)</div></th>
+                                        </tr>
+                                    </thead>
+                                </table>
+                            </div>
+                            <!--END: datatable 關係人群組  -->
+                            <ul class="pb-20">
+                                <li>
+                                    <p>駐(1)：關係說明</p>
+                                    <ul>
+                                        <li><p class="mb-0">一、<span class="mr-20 w-100"></span> ：同一自然人（10）</p></li>
+                                        <li><p class="mb-0">二、(一）:同一自然人與其配偶及二親等以內血親（21）。</p></li>
+                                        <li><p class="mb-0">二、(二）:同一自然人與其配偶及二親等以內血親持有已發行有表決權股份或資本額合計超過三分之一之企業（22）。</p></li>
+                                        <li><p class="mb-0">二、(三)：同一自然人與其配偶及二親等以內血親擔任董事長、總缠理或過半數董事之企業或財團法人（23）。</p></li>
+                                        <li><p class="mb-0">三、<span class="mr-20 w-100"></span> ：同一法人（30）。</p></li>
+                                        <li><p class="mb-0">四、(一)：同一法人與其董事長、總經理，及該菱事長、總經理之配偶與二視等以內血親（41）。</p></li>
+                                        <li><p class="mb-0">四、(二)：同一法人與其董事長、總經理，及該董事長、總經理之配偶與二視等以內血親持有已發行有表決權股份或資本額合計超過三分之一企業，或擔任董事長、
+                                            總經理或過半數董事之企業或財團法人（42）。</p></li>
+                                        <li><p class="mb-0">四、(三)：同一法人之關係企素（43）。</p></li>
+                                        <li><p>五、<span class="mr-20 w-100"></span> ：第三人為同一人或同一關係人以信託、委任或其他契约、協議、授權等方法持有股份（50） °  </p></li>
+                                    </ul>
+                                </li>
+                                <li><p>駐(2)：現股資料由集保结算所接獲金管會通知之同一人或同一關係人持有銀行或金羅控股公司之現股資料後，併入持股餘額</p></li>
+                                <li><p>駐(3)：已發行有表決權股份總數資料異動由金管會通知集保結算所</p></li>
+                                <li><p>駐(4)：+表不本次申報新增之群組成員。</p></li>
+                                <li><p>駐(5)：持股餘額之計算包含次一營業日配發股數。</p></li>
+                            </ul>
+                            <div class="d-flex flex-row justify-content-between ">
+                                <h3>同一人或同一關係人持有銀行或金融控股公司股份資料明細表</h3>
+                                <i data-feather='eye'></i>
+                                <i data-feather='eye-off'></i>
+                            </div>
+                            <!--BEGIN: datatable 戶  -->
+                            <div class="card-datatable">
+                                <table id="test" class="account-list-table table table-responsive">
+                                    <thead>
+                                        <tr>  
+                                            <th><div style="width: 73px">序號</div></th>
+                                            <th>ID</th>
+                                            <th>戶名</th>
+                                            <th>關係別</th>
+                                            <th></th>
+                                            <th><div>持股餘額合計</br>(A)=(C)+(D)+(E)+(F)+(G)</div></th>
+                                            <th><div>持股餘額比率</br>(B)=(A)/(H)</div></th>
+                                            <th><div style="width: 73px">保管劃撥</br>帳戶餘額</br>(C)</div></th>
+                                            <th><div style="width: 73px">擔保品</br>餘額</br>(D)</div></th>
+                                            <th><div style="width: 73px">設質餘額</br>(E)</div></th>
+                                            <th><div style="width: 65px">登錄餘額</br>(F)</div></th>
+                                            <th><div style="width: 65px">現股餘額</br>(G)</div></th>
+                                        </tr>
+                                    </thead>
+                                </table>
+                            </div>
+                            <!--END: datatable 戶  -->
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <!-- END: Content-->
+
+    <div class="sidenav-overlay"></div>
+    <div class="drag-target"></div>
+
+
+
+    <!-- BEGIN: Vendor JS-->
+    <script src="../../../assets/js/vendors.min.js"></script>
+    <script src="../../../assets/js/extensions/moment.min.js"></script>
+    <script src="../../../assets/js/core/tables/jquery.dataTables.min.js"></script>
+    <script src="../../../assets/js/core/tables/datatables.buttons.min.js"></script>
+    <script src="../../../assets/js/core/tables/dataTables.bootstrap5.min.js"></script>
+    <script src="../../../assets/js/core/forms/select/select2.full.min.js"></script>
+    <script src="../../../assets/js/core/forms/pickers/picker.js"></script>
+    <script src="../../../assets/js/core/forms/pickers/picker.date.js"></script>
+    <script src="../../../assets/js/core/forms/pickers/picker.time.js"></script>
+    <script src="../../../assets/js/core/forms/pickers/flatpickr.min.js"></script>
+    <!-- BEGIN Vendor JS-->
+
+    <!-- BEGIN: Theme JS-->
+    <script src="../../../assets/js/core/app-menu.js"></script>
+    <script src="../../../assets/js/core/app.js"></script>
+    <!-- END: Theme JS-->
+
+    <!-- BEGIN: Page JS-->
+    <script src="../../../assets/js/core/forms/pickers/form-pickers.js"></script>
+    <script src="../../../assets/js/pages/search/relator-record-detail.js"></script>
+    <!-- END: Page JS-->
+
+    <script>
+        $(window).on('load', function() {
+            if (feather) {
+                feather.replace({
+                    width: 14,
+                    height: 14
+                });
+            }
+        })
+    </script>
+</body>
+<!-- END: Body-->
+
+</html>

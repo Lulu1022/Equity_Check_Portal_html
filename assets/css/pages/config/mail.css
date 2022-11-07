@@ -1,0 +1,19 @@
+.card-link.btn {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+}
+
+h3 {
+    font-weight: normal;
+}
+
+.card .card {
+    box-shadow: 0 4px 24px 0 rgb(34 41 47 / 10%) !important;
+}
+
+.modal-body h2 {
+    text-align: center;
+    font-weight: 300;
+}
+

@@ -1,0 +1,1019 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <!-- 網頁屬性資訊 -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0,minimal-ui">
+    <title>Tabs - Vuexy - Bootstrap HTML admin template</title>
+    <link rel="apple-touch-icon" href="../../../assets/images/ico/apple-icon-120.png">
+    <link rel="shortcut icon" type="image/x-icon" href="../../../assets/images/ico/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600" rel="stylesheet">
+
+    <!-- BEGIN: Vendor CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../assets/css/vendors.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../assets/css/core/tables/dataTables.bootstrap5.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../assets/css/core/tables/responsive.bootstrap5.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../assets/css/core/forms/wizard/bs-stepper.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../assets/css/core/forms/file-uploaders/dropzone.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../assets/css/core/forms/pickers/flatpickr.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../assets/css/core/forms/select/select2.min.css">
+    <!-- END: Vendor CSS-->
+
+    <!-- BEGIN: Theme CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../../../assets/css/bootstrap-extended.css">
+    <link rel="stylesheet" type="text/css" href="../../../assets/css/colors.css">
+    <link rel="stylesheet" type="text/css" href="../../../assets/css/components.css">
+
+    <!-- BEGIN: Page CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../assets/css/core/menu/menu-types/vertical-menu.css">
+    <link rel="stylesheet" type="text/css" href="../../../assets/css/core/forms/pickers/form-flat-pickr.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../assets/css//pages/input/app-bank-relator.css">
+    <link rel="stylesheet" type="text/css" href="../../../assets/css/core/forms/wizard/form-wizard.css">
+    <link rel="stylesheet" type="text/css" href="../../../assets/css/core/forms/file-uploaders/form-file-uploader.css">
+    <!-- END: Page CSS-->
+
+    <!-- BEGIN: Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../assets/css/style.css">
+    <!-- END: Custom CSS-->
+
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+</head>
+
+
+
+<body class="vertical-layout vertical-menu-modern" data-open="click" data-menu="vertical-menu-modern">
+
+    <div>
+        <div class="main-menu menu-fixed menu-light menu-accordion menu-shadow expanded mr-20" data-scroll-to-active="true" style="touch-action: none; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+            <div class="navbar-header expanded">
+                <ul class="nav navbar-nav flex-row">
+                    <li class="nav-item me-auto d-flex align-items-center">
+                        <a class="navbar-brand mt-0" href="../../../layout.html">
+                        </a></li>
+                    <li class="nav-item nav-toggle"><a class="nav-link modern-nav-toggle pe-0" data-bs-toggle="collapse"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x d-block d-xl-none text-primary toggle-icon font-medium-4"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-disc d-none d-xl-block collapse-toggle-icon primary font-medium-4"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="3"></circle></svg></a></li>
+                </ul>
+            </div>
+            <div class="shadow-bottom" style="display: none;"></div>
+            <div class="main-menu-content ps ps--active-y">
+                <ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">
+                    <li class=" navigation-header"><span>主選單</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-horizontal"><circle cx="12" cy="12" r="1"></circle><circle cx="19" cy="12" r="1"></circle><circle cx="5" cy="12" r="1"></circle></svg>
+                    </li>
+                    <li class=" nav-item has-sub"><a class="d-flex align-items-center"><i data-feather='edit-3'></i><span class="menu-title text-truncate"
+                        >資料輸入</span></a>
+                        <ul class="menu-content">
+                            <li><a class="d-flex align-items-center" href="/html/pages/input/report.html"><em>∙</em><span class="menu-item text-truncate">
+                                報表</span></a>
+                            </li>
+                            <li><a class="d-flex align-items-center" href="/html/pages/input/bank-relator.html"><em>∙</em><span class="menu-item text-truncate" >
+                                銀行金控與關係人</span></a>
+                            </li>
+                            <li class=" nav-item has-sub"><div class="enable-active d-flex align-items-center"><em>∙</em><span class="menu-item text-truncate" >
+                                境外基金匯回控管維護</span></div>
+                                    <div><a class="fixed-item d-flex align-items-center" href="/html/pages/input/offshore-found-bank.html"><span class="menu-item text-truncate" >
+                                        銀行資料</span></a>
+                                    </div>
+                                    <div><a class="fixed-item d-flex align-items-center" href="/html/pages/input/offshore-found-applicant.html"><span class="menu-item text-truncate" >
+                                        申請人資料</span></a>
+                                    </div>
+                            </li>
+                            <li><a class="d-flex align-items-center" href="/html/pages/input/general-notification.html"><em>∙</em><span class="menu-item text-truncate" >
+                                四方通報群組</span></a>
+                            </li>
+                            <li><a class="d-flex align-items-center" href="/html/pages/input/loundering-notification-record.html"><em>∙</em><span class="menu-item text-truncate" >
+                                洗錢通報紀錄</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class=" nav-item has-sub"><a class="d-flex align-items-center"><i data-feather='search'></i><span class="menu-title text-truncate"
+                        >資料查詢</span></a>
+                        <ul class="menu-content">
+                            <li><a class="d-flex align-items-center" href="/html/pages/search/relator-record.html"><em>∙</em><span class="menu-item text-truncate" >
+                                關係人/群組紀錄</span></a>
+                            </li>
+                            <li><a class="d-flex align-items-center" href="/html/pages/search/audit.html"><em>∙</em><span class="menu-item text-truncate" >
+                                稽核</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class=" nav-item has-sub"><a class="d-flex align-items-center"><i data-feather='bell'></i><span class="menu-title text-truncate"
+                        >檢核通報</span></a>
+                        <ul class="menu-content">
+                            <li><a class="d-flex align-items-center" href="/html/pages/inspection-notice/add-new-shareholder.html"><em>∙</em><span class="menu-item text-truncate" >
+                                新增大股東</span></a>
+                            </li>
+                            <li><a class="d-flex align-items-center" href="/html/pages/inspection-notice/insider-balance-comparision.html"><em>∙</em><span class="menu-item text-truncate" >
+                                內部人餘額比對</span></a>
+                            </li>
+                            <li><a class="d-flex align-items-center" href="/html/pages/inspection-notice/three-year-shareholder-balance.html"><em>∙</em><span class="menu-item text-truncate" >
+                                大股東三年餘額</span></a>
+                            </li>
+                            <li><a class="d-flex align-items-center" href="/html/pages/inspection-notice/investment-trust-advisor-equity-review.html"><em>∙</em><span class="menu-item text-truncate" >
+                                投信投顧股權檢核</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class=" nav-item has-sub"><a class="d-flex align-items-center"><i data-feather='settings'></i><span class="menu-title text-truncate"
+                        >系統設定</span></a>
+                        <ul class="menu-content">
+                            <li><a class="d-flex align-items-center" href="/html/pages/config/account-permissions.html"><em>∙</em><span class="menu-item text-truncate" >
+                                帳號權限</span></a>
+                            </li>
+                            <li><a class="d-flex align-items-center" href="/html/pages/config/group.html"><em>∙</em><span class="menu-item text-truncate" >
+                                群組</span></a>
+                            </li>
+                            <li><a class="d-flex align-items-center" href="/html/pages/config/mail.html"><em>∙</em><span class="menu-item text-truncate" >
+                                信件相關</span></a>
+                            </li>
+                            <li><a class="d-flex align-items-center" href="/html/pages/config/audit.html"><em>∙</em><span class="menu-item text-truncate" >
+                                稽核</span></a>
+                            </li>
+                            <li><a class="d-flex align-items-center" href="/html/pages/config/sftp.html"><em>∙</em><span class="menu-item text-truncate" >
+                                SFTP相關</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            <div class="ps__rail-x" style="left: 0px; bottom: 0px;"><div class="ps__thumb-x" tabindex="0" style="left: 0px; width: 0px;"></div></div><div class="ps__rail-y" style="top: 0px; height: 549px; right: 0px;"><div class="ps__thumb-y" tabindex="0" style="top: 0px; height: 174px;"></div></div></div>
+        </div>
+    </div>
+
+
+    <div class="app-content content pb-20">
+        <div class="content-overlay"></div>
+        <nav class="navbar navbar-expand-lg align-items-center nav-float">
+            <div class="header-navbar navbar-light  navbar-shadow mt-10 w-100">
+                <div class="navbar-container d-flex content">
+                    <div class="bookmark-wrapper d-flex align-items-center">
+                        <ul class="nav navbar-nav d-xl-none">
+                            <li class="nav-item"><a class="nav-link menu-toggle is-active" href="./html/ltr/vertical-menu-template/app-chat.html#"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu ficon"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></a></li>
+                        </ul>
+                    </div>
+                    <ul class="nav navbar-nav align-items-center ms-auto">
+                        <div class="d-flex flex-column align-items-end mr-10">
+                            <h4 class="m-0">John Doe</h4>
+                            <p class="ft-lt-gray m-0">Admin</p>
+                        </div>
+                        <li class="nav-item dropdown dropdown-user">
+                            <a class="nav-link dropdown-toggle dropdown-user-link" id="dropdown-user" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                •••</a>
+                            <div class="user-config dropdown-menu dropdown-menu-end" aria-labelledby="dropdown-user">
+                                <a class="dropdown-item" href="#"><i data-feather='refresh-cw'></i>
+                                    重設密碼</a>
+                                <a class="dropdown-item" id="logout" href="/html/pages/login/login.html"><i data-feather='log-in'></i>
+                                    登出</a>
+                                <a class="dropdown-item" id="login" href="#"><i data-feather='log-out'></i>
+                                    登入</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="content-wrapper p-0">
+            <div class="content-header row">
+                <div class="content-header-left col-md-9 col-12 mb-2">
+                    <div class="row breadcrumbs-top">
+                        <div class="col-12">
+                            <h2 class="content-header-title float-start mb-0">銀行金控與關係人</h2>
+                            <div class="breadcrumb-wrapper">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="/layout.html">主選單</a>
+                                    </li>
+                                    <li class="breadcrumb-item"><a href="#">資料輸入</a>
+                                    </li>
+                                    <li class="breadcrumb-item active">銀行金控與關係人
+                                    </li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="modern-horizontal-wizard">
+                <div class="bs-stepper wizard-modern modern-wizard-example">
+                    <div class="bs-stepper-header pt-0 pl-0 pb-10">
+                        <div class="step" data-target="#bank-details-modern" role="tab" id="bank-details-modern-trigger">
+                            <button type="button" class="step-trigger">
+                                <span class="bs-stepper-box">
+                                    <i data-feather="file-text" class="font-medium-3"></i>
+                                </span>
+                                <span class="bs-stepper-label">
+                                    <span class="bs-stepper-title">銀行金控</span>
+                                    <span class="bs-stepper-subtitle">Step 1</span>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="line">
+                            <i data-feather="chevron-right" class="font-medium-2"></i>
+                        </div>
+                        <div class="step" data-target="#personal-info-modern" role="tab" id="personal-info-modern-trigger">
+                            <button type="button" class="step-trigger">
+                                <span class="bs-stepper-box">
+                                    <i data-feather="user" class="font-medium-3"></i>
+                                </span>
+                                <span class="bs-stepper-label">
+                                    <span class="bs-stepper-title">關係人群組/成員</span>
+                                    <span class="bs-stepper-subtitle">Step 2</span>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="bs-stepper-content p-0">
+                        <!--BEGIN: 銀行金控 -->
+                        <div id="bank-details-modern" class="content" role="tabpanel" aria-labelledby="bank-details-modern-trigger">
+                            <form name="form-bank" action="" method="post">
+                                <div class="w-100 d-flex flex-row pt-10 pl-20">
+                                    <a class="printer"><i data-feather='printer'></i></a>
+                                    <section class="col-5 mr-30">
+                                        <div>
+                                            <p>建檔日期：2022-05-20</p>
+                                            <label class="form-control-item">
+                                                <p>企業代碼<em>*</em></p>
+                                                <input class="form-control input error" type="text"  id="com-code" required >
+                                                <div class="error-tip d-flex flex-column align-items-end">
+                                                    <p>錯誤提示錯誤提示錯誤提示</p>
+                                                    <p>錯誤提示錯誤提示錯誤提示</p>
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <div class="bg-blue board">
+                                            <p>企業資訊</p>
+                                            <label class="form-control-item">
+                                                <p>企業名稱<em>*</em></p>
+                                                <input class="form-control input" type="text" id="com-name" required >
+                                                <div class="error-tip d-flex flex-column align-items-end">
+                                                    <p>錯誤提示錯誤提示錯誤提示</p>
+                                                </div>
+                                            </label>
+                                            <label class="form-control-item">
+                                                <p>企業類別<em>*</em></p>
+                                                <input class="form-control input" type="text" id="com-category" required >
+                                                <div class="error-tip d-flex flex-column align-items-end">
+                                                    <p>錯誤提示錯誤提示錯誤提示</p>
+                                                </div>
+                                            </label>
+                                            <label class="form-control-item">
+                                                <p>市場別<em>*</em></p>
+                                                <input class="form-control input" type="text" id="market-category" required >
+                                                <div class="error-tip d-flex flex-column align-items-end">
+                                                    <p>錯誤提示錯誤提示錯誤提示</p>
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <div class="form-control-item mt-10">
+                                            <p>有表決權總股數<em>*</em></p>
+                                            <input class="form-control input" type="text" id="stock-amount" required >
+                                            <div class="error-tip d-flex flex-column align-items-end">
+                                                <p>錯誤提示錯誤提示錯誤提示</p>
+                                            </div>
+                                        </div>
+                                        <div class="bg-blue board">
+                                            <p class="m-0">前次表決權股份總數(B) : 13,563,210,000 股</br>
+                                            差額股數(A-B) : -1,000,000,000 股</br>
+                                            前次建檔日期 : 2020-03-10</p>
+                                        </div>
+                                        <div>
+                                            <label class="form-control-item mt-10">
+                                                <p>備註說明</p>
+                                                <textarea class="form-control error" rows="3" id="remark"></textarea>
+                                                <div class="error-tip d-flex flex-column align-items-end">
+                                                    <p>錯誤提示錯誤提示錯誤提示</p>
+                                                </div>
+                                            </label>
+                                            <div class="d-flex flex-row-reverse">
+                                                <button id="btn-clear" class="btn btn-outline-secondary mb-1 btn-sm-block btn-s">
+                                                    清除</button>
+                                            </div>
+                                        </div>
+                                    </section>
+                                    <section class=" col-6">
+                                        <div class="card-datatable">
+                                            <p>發行股票設定</p>
+                                            <table id="test" class="bank-list-table table table-responsive">
+                                                <thead class="w-100">
+                                                    <tr>
+                                                        <th style="width:25%"><div>證券代號</div></th>
+                                                        <th style="width:25%"><div>證券名稱</div></th>
+                                                        <th style="width:25%"><div>證券類別</div></th>
+                                                        <th style="width:25%"><div><p>表決權註記<em>*</em></p></div></th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody class="w-100">
+                                                    <tr class="w-100">
+                                                        <td>2888</td>
+                                                        <td>新光金</td>
+                                                        <td>普通股</td>
+                                                        <td>
+                                                            <select class="vote select2 select-label form-select" id="select-vote-right" name="select-label">
+                                                                <option data-label="primary" value="Y" selected>是</option>
+                                                                <option data-label="danger" value="N">否</option>
+                                                            </select>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </section>
+                                </div>
+                                <div class="d-flex flex-row-reverse pr-30 ">
+                                    <!--BEGIN: Submit Modal -->
+                                        <div
+                                        class="modal fade"
+                                        id="bankSubmitModal"
+                                        tabindex="-1"
+                                        aria-labelledby="bankSubmitModalTitle"
+                                        aria-hidden="true"
+                                        >
+                                        <div class="modal-dialog modal-dialog-centered">
+                                            <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="bankSubmitModalTitle">表單送出</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" ></button>
+                                            </div>
+                                            <div class="modal-body warn">
+                                                <i data-feather='alert-circle'></i>
+                                                <p>
+                                                資料送出後，將無法再編輯
+                                                </p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" id="bank-submit-model-comfirm" class="btn btn-secondary" data-bs-dismiss="modal">確認送出</button>
+                                                <button type="button" id="bank-submit-model-cancel" class="btn btn-outline-secondary" data-bs-dismiss="modal">取消</button>
+                                            </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    <!--END: Submit Modal -->
+                                </div>
+                                </form>
+                            <div class="d-flex flex-row-reverse p-20">
+                                <button type="button" id="btn-step1-save" class="btn btn-secondary ml-10" data-bs-dismiss="modal" >
+                                    暫存</button>
+                                <button type="button" id="btn-step1-submit" class="btn btn-primary ms-2" data-bs-target="#step1SubmitModal"  data-bs-dismiss="modal" >
+                                    送出</button>
+                                <!--BEGIN: Submit Modal -->
+                                <div
+                                class="modal fade"
+                                id="step1SubmitModal"
+                                tabindex="-1"
+                                aria-labelledby="step1SubmitModalTitle"
+                                aria-hidden="true"
+                                >
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="step1SubmitModalTitle">表單送出</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" ></button>
+                                    </div>
+                                    <div class="modal-body warn">
+                                        <i data-feather='alert-circle'></i>
+                                        <p>
+                                        資料送出後，將無法再編輯
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" id="step1-submit-model-comfirm" class="btn btn-secondary" data-bs-dismiss="modal">確認送出</button>
+                                        <button type="button" id="step1-submit-model-cancel" class="btn btn-outline-secondary" data-bs-dismiss="modal">取消</button>
+                                    </div>
+                                    </div>
+                                </div>
+                                </div>
+                                <!--END: Submit Modal -->
+                            </div>
+                        </div>
+                        <!--END: 銀行金控 -->
+                        <!--BEGIN: 關係人/成員群組 -->
+                        <div id="personal-info-modern" class="content position-relative" role="tabpanel" aria-labelledby="personal-info-modern-trigger">
+                            <form  name="form-relator" action="" method="post">
+                                <div class="col-xl-4 pl-20 pt-10">
+                                    <a class="printer"><i data-feather='printer'></i></a>
+                                    <p>建檔日期：2022-05-20</p>
+                                    <label class="form-control-item">
+                                        <p>企業代碼<em>*</em></p>
+                                        <input class="form-control input" type="text"  id="relator-com-code" required >
+                                        <div class="error-tip d-flex flex-column align-items-end">
+                                            <p>錯誤提示錯誤提示錯誤提示</p>
+                                        </div>
+                                    </label>
+                                    <div class="bg-blue board">
+                                        <p class="m-0">公司名稱：新光金融控股公司 </br>
+                                            最新表決權股份總數： 12,536,210,000 股</p>
+                                    </div>
+                                </div>
+                                <div class="w-100 d-flex flex-column">
+                                    <div class="pl-20 pr-20">
+                                        <div class="divider w-100 bg-lt-gray">申報資料輸入</div>
+                                        <div class="col-xl-12 row">
+                                            <div class="col-xl-7">
+                                                <label class="form-control-sep-item col-xl-8">
+                                                    <p>關係人群組資訊<em>*</em></p>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-12 row">
+                                                <label class="form-control-sep-item col-3">
+                                                        <p>群組編號<em>*</em></p>
+                                                        <div class="d-flex flex-row">
+                                                            <div class="d-flex flex-column w-100">
+                                                                <select class="form-select " id="group-no" required >
+                                                                    <!-- OPTIONS EXAMPLE -->
+                                                                    <option data-label="primary" value="bank-manager" selected>群組編號一</option>
+                                                                </select>
+                                                                <div class="error-tip d-flex flex-column align-items-end">
+                                                                    <p>錯誤提示錯誤提示錯誤提示</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                </label>
+                                                <div class="form-control-sep-item col-3">
+                                                    <p>是否檢核<em>*</em></p>
+                                                    <div class="form-check-group d-flex">
+                                                        <div class="form-check">
+                                                            <input class="form-check-input layout-name" type="radio" id="relator-isValidable-Y" name="relator-isValidable"  data-layout="bordered-layout" checked>
+                                                            <label class="form-check-label ml-1" for="relator-isValidable-Y">是</label>
+                                                        </div>
+                                                        <div class="form-check ml-10">
+                                                            <input class="form-check-input layout-name" type="radio" id="relator-isValidable-N"  name="relator-isValidable" data-layout="bordered-layout">
+                                                            <label class="form-check-label ml-1" for="relator-isValidable-N">否</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="error-tip d-flex flex-column align-items-end">
+                                                        <p>錯誤提示錯誤提示錯誤提示</p>
+                                                    </div>
+                                                </div>
+                                                <label class="form-control-sep-item col-3">
+                                                    <p>共同代表人(群組名稱)<em>*</em></p>
+                                                    <input class="part-form-control input w-100" type="text" id="representative" required >
+                                                    <div class="error-tip d-flex flex-column align-items-end">
+                                                        <p>錯誤提示錯誤提示錯誤提示</p>
+                                                    </div>
+                                                </label>
+                                                <label class="form-control-sep-item col-3">
+                                                    <p>填表日期</p>
+                                                    <input type="text" id="fill-date" class="form-control flatpickr-basic" placeholder="YYYY-MM-DD" />
+                                                    <div class="error-tip d-flex flex-column align-items-end">
+                                                        <p>錯誤提示錯誤提示錯誤提示</p>
+                                                    </div>
+                                                </label>
+                                                <label class="form-control-sep-item col-3">
+                                                <p>聯絡人</p>
+                                                <input class="part-form-control input w-100" type="text" id="contact-person" >
+                                                <div class="error-tip d-flex flex-column align-items-end">
+                                                    <p>錯誤提示錯誤提示錯誤提示</p>
+                                                </div>
+                                            </label>
+                                            <label class="form-control-sep-item col-3">
+                                                <p>聯絡電話</p>
+                                                <input class="part-form-control input w-100" type="text" id="contact-phone" >
+                                                <div class="error-tip d-flex flex-column align-items-end">
+                                                    <p>錯誤提示錯誤提示錯誤提示</p>
+                                                </div>
+                                            </label>
+                                            <label class="form-control-sep-item col-3">
+                                                <p>聯絡地址</p>
+                                                <input class="part-form-control input w-100" type="text" id="contact-address" >
+                                                <div class="error-tip d-flex flex-column align-items-end">
+                                                    <p>錯誤提示錯誤提示錯誤提示</p>
+                                                </div>
+                                            </label>
+                                            <label class="form-control-sep-item col-3">
+                                                <p>表決權股份總數<em>*</em></p>
+                                                <div class="d-flex flex-row justify-content-start align-items-start">
+                                                    <div class="d-flex flex-row justify-content-start w-100">
+                                                        <div class="d-flex flex-column align-items-end w-100 relative">
+                                                            <input class="part-form-control input w-100" type="text" id="total-voting-shares" required >
+                                                            <em class="mt-1">股</em>
+                                                            <p class="ft-dp-green">申報書上為[仟股]，請換算成[股]輸入</p>
+                                                            <div class="error-tip d-flex flex-column align-items-end">
+                                                                <p>錯誤提示錯誤提示錯誤提示</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <div class="col-xl-12 row">
+                                            <div class="col-6">
+                                                <label class="form-control-item">
+                                                    <p>備註說明</p>
+                                                    <textarea class="form-control" rows="3" id="remark" ></textarea>
+                                                    <div class="error-tip d-flex flex-column align-items-end">
+                                                        <p>錯誤提示錯誤提示錯誤提示</p>
+                                                    </div>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-12 row">
+                                            <label class="form-control-sep-item col-6">
+                                                <p>群組持股數<em>*</em></p>
+                                                <div class="d-flex flex-row align-items-center w-100">
+                                                    <div class="d-flex flex-row align-items-center w-100">
+                                                        <div class="d-flex flex-column col-6">
+                                                            <input class="part-form-control input" type="text" id="shareholding" required >
+                                                            <div class="error-tip d-flex flex-column align-items-end">
+                                                                <p>錯誤提示錯誤提示錯誤提示</p>
+                                                            </div>
+                                                        </div>
+                                                        <em>股</em>
+                                                        <p class="col-xl-6 pl-32">試算：1,600,000,233 股</p>
+                                                    </div>
+                                                </div>
+                                            </label>
+                                            <label class="form-control-sep-item col-6">
+                                                <p>群組持股比率<em>*</em></p>
+                                                <div class="d-flex flex-row align-items-center w-100">
+                                                    <div class="d-flex flex-row align-items-center w-100">
+                                                        <div class="d-flex flex-column col-6">
+                                                            <input class="part-form-control input" type="text" id="shareholding-rate" required >
+                                                            <div class="error-tip d-flex flex-column align-items-end">
+                                                                <p>錯誤提示錯誤提示錯誤提示</p>
+                                                            </div>
+                                                        </div>
+                                                        <em>%</em>
+                                                        <p class="col-xl-5 pl-32">試算：12,73559 %</p>
+                                                    </div>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                        
+                                        <div class="col-xl-12">
+                                            <div class="card-datatable w-100 pr-0 pl-10">
+                                                <div class="d-flex flex-row align-items-end justify-content-between w-100 pr-30 mt-10">
+                                                    <div class="d-flex flex-row align-items-center">
+                                                        <p class="pl-10 mb-0">關係人成員資訊</p>
+                                                        <button type="button" id="relator-table-reset"  class="btn btn-outline-primary ml-30" >重置此群組之關係人既有資訊</button>
+                                                    </div>
+                                                    <button type="button" id="relator-table-add"  class="btn btn-outline-primary ml-30" data-bs-toggle="modal"
+                                                    data-bs-target="#editModal">新增一列</button>
+                                                </div>
+                                                <table id="test" class="relator-list-table table pr-0 mt-10" style="width: 100%">
+                                                    <thead>
+                                                        <tr>
+                                                            <th rowspan="2" style="width:2%"><div>NO</div></th>
+                                                            <th rowspan="2" style="width:5%"><div>姓名</br>或</br>法人名稱</div></th>
+                                                            <th rowspan="2" style="width:5%"><div>關係</div></th>
+                                                            <th rowspan="2" style="width:6%"><div>身分證</br>統一編號</br>或</br>營利事業</br>統一編號</div></th>
+                                                            <th colspan="2" style="width:12%"><div>前次申報</br>持有股數</div></th>
+                                                            <th colspan="2" style="width:12%"><div>增減</br>持有股數</div></th>
+                                                            <th colspan="2" style="width:12%"><div>申報時</br>持有股數</div></th>
+                                                            <th rowspan="2" style="width:5%"><div>持股目的/</br> 變動原因</div></th>
+                                                            <th rowspan="2" style="width:7%"><div>資金</br>來源</div></th>
+                                                            <th colspan="2" style="width:9%"><div>實質受益人/ </br>最終控制權人</div></th>
+                                                            <th rowspan="2" style="width:6%"><div>信託持股帳號</div></th>
+                                                            <th rowspan="2" style="width:3%"><div>編輯</div></th>
+                                                            <th rowspan="2" style="width:5%"><div >刪除</div></th>
+                                                        </tr>
+                                                        <tr>
+                                                            <th style="width:6%"><div>股數</br>(股)</div></th> <!-- 前次申報 持有股數 -->
+                                                            <th style="width:6%"><div>比率</br>(%)</div></th> <!-- 前次申報 持有股數 -->
+                                                            <th style="width:5%"><div>股數</br>(股)</div></th> <!-- 減 持有股數 -->
+                                                            <th style="width:5%"><div>比率</br>(%)</div></th> <!-- 減 持有股數 -->
+                                                            <th style="width:5%"><div>股數</br>(股)</div></th> <!-- 申報時 持有股數 -->
+                                                            <th style="width:5%"><div>比率</br>(%)</div></th> <!-- 申報時 持有股數 -->
+                                                            <th style="width:8%"><div>BO類型</div></th> <!-- 實質受益人/最終控制權人 -->
+                                                            <th style="width:8%"><div>BO名稱</div></th> <!-- 實質受益人/最終控制權人 -->
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td style="width:2%">1</td>
+                                                            <td style="width:6%">菜ＯＯ</td>
+                                                            <td style="width:6%">關係</td>
+                                                            <td style="width:6%">1000000</td>
+                                                            <td style="width:7%">1000000</td>
+                                                            <td style="width:7%">3%</td>
+                                                            <td style="width:7%">1000000</td>
+                                                            <td style="width:6%">3%</td>
+                                                            <td style="width:7%">1000000</td>
+                                                            <td style="width:6%">3%</td>
+                                                            <td style="width:6%">3%</td>
+                                                            <td style="width:7%">資金來源</td>
+                                                            <td style="width:5%">（一）</td>
+                                                            <td style="width:5%">陳ＯＯ</td>
+                                                            <td style="width:8%">Roxy Floodgate</td>
+                                                            <td style="width:3%">
+                                                                <a class='btn-edit' id='btn-relator-edit' data-bs-toggle="modal"
+                                                                data-bs-target="#editModal"><i data-feather='edit'></i></a>
+                                                            </td>
+                                                            <td style="width:5%">
+                                                                <button type="button" id="btn-relator-delete" class="btn btn-outline-primary list-edit"  data-bs-toggle="modal"
+                                                                data-bs-target="#relatorDeleteModal">
+                                                                    刪除</button>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        <!--BEGIN: Delete Modal -->
+                                        <div
+                                        class="modal fade"
+                                        id="relatorDeleteModal"
+                                        tabindex="-1"
+                                        aria-labelledby="bankSubmitModalTitle"
+                                        aria-hidden="true"
+                                        >
+                                        <div class="modal-dialog modal-dialog-centered">
+                                            <div class="modal-content">
+                                            <div class="modal-body warn">
+                                                <i data-feather='alert-circle'></i>
+                                                <p>
+                                                請確認刪除此檔案
+                                                </p>
+                                            </div>
+                                            <div class="modal-footer d-flex justify-content-center">
+                                                <button type="button" id="bank-submit-model-comfirm"  class="btn btn-secondary" data-bs-dismiss="modal">確認送出</button>
+                                                <button type="button" id="bank-submit-model-cancel"  class="btn btn-outline-secondary" data-bs-dismiss="modal">取消</button>
+                                            </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                                        <!--END: Delete Modal -->
+                                        <!--BEGIN: Edit Modal -->
+                                        <div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="editModalTitle"
+                                        aria-hidden="true">
+                                            <div class="modal-dialog dialog-xl modal-dialog-centered">
+                                                <div class="modal-content">
+                                                    <form name="form-edit" action="">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title" id="editModalTitle">編輯</h5>
+                                                            <button type="button" class="btn-close" data-bs-dismiss="modal" ></button>
+                                                        </div>
+                                                        <div class="modal-body overflow">
+                                                            <div class="d-flex flex-row justify-content-between flex-wrap">
+                                                                <label class="col-4">
+                                                                    <p>姓名或法人名稱<em>*</em></p>
+                                                                    <input class="form-control input" type="text" id="edit-name" required >
+                                                                    <div class="error-tip d-flex flex-column align-items-end">
+                                                                        <p>錯誤提示錯誤提示錯誤提示</p>
+                                                                    </div>
+                                                                </label>
+                                                                <label class="col-4 pl-20">
+                                                                    <p>關係<em>*</em></p>
+                                                                    <select class="form-select " id="edit-relationship" required >
+                                                                        <!-- OPTIONS EXAMPLE -->
+                                                                        <option data-label="primary" value="0" selected>關係一</option>
+                                                                    </select>
+                                                                    <div class="error-tip d-flex flex-column align-items-end">
+                                                                        <p>錯誤提示錯誤提示錯誤提示</p>
+                                                                    </div>
+                                                                </label>
+                                                                <label class="col-4 pl-20">
+                                                                    <p>身分證統一編號 或 營利事業統一編號<em>*</em></p>
+                                                                    <input class="form-control input" type="text" id="edit-id" required >
+                                                                    <div class="error-tip d-flex flex-column align-items-end">
+                                                                        <p>錯誤提示錯誤提示錯誤提示</p>
+                                                                    </div>
+                                                                </label>
+                                                            </div>
+                                                            <div class="d-flex flex-row flex-wrap mt-30">
+                                                                <div class="col-4 d-flex flex-column">
+                                                                    <p class="mb-10">前次申報持有股數</p>
+                                                                    <div class="d-flex flex-row">
+                                                                        <label class="col-6">
+                                                                            <p>股數 (股)<em>*</em></p>
+                                                                            <input class="form-control input" type="text" id="edit-last-stock-number" required >
+                                                                            <div class="error-tip d-flex flex-column align-items-end">
+                                                                                <p>錯誤提示錯誤提示錯誤提示</p>
+                                                                            </div>
+                                                                        </label>
+                                                                        <label  class="col-6 pl-20">
+                                                                            <p>比率 (%)</p>
+                                                                            <input class="form-control input" type="text" id="edit-last-stock-ratio"  >
+                                                                            <div class="error-tip d-flex flex-column align-items-end">
+                                                                                <p>錯誤提示錯誤提示錯誤提示</p>
+                                                                            </div>
+                                                                        </label>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-4 d-flex flex-column pl-20">
+                                                                    <p class="mb-10">增減持有股數</p>
+                                                                    <div class="d-flex flex-row">
+                                                                        <label class="col-6">
+                                                                            <p>股數 (股)</p>
+                                                                            <input class="form-control input" type="text" id="edit-change-stock-number" >
+                                                                            <div class="error-tip d-flex flex-column align-items-end">
+                                                                                <p>錯誤提示錯誤提示錯誤提示</p>
+                                                                            </div>
+                                                                        </label>
+                                                                        <label  class="col-6 pl-20">
+                                                                            <p>比率 (%)</p>
+                                                                            <input class="form-control input" type="text" id="edit-change-stock-ratio" >
+                                                                            <div class="error-tip d-flex flex-column align-items-end">
+                                                                                <p>錯誤提示錯誤提示錯誤提示</p>
+                                                                            </div>
+                                                                        </label>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-4 d-flex flex-column pl-20">
+                                                                    <p class="mb-10">申報時持有股數</p>
+                                                                    <div class="d-flex flex-row">
+                                                                        <label class="col-6">
+                                                                            <p>股數 (股)</p>
+                                                                            <input class="form-control input" type="text" id="group-name" >
+                                                                            <div class="error-tip d-flex flex-column align-items-end">
+                                                                                <p>錯誤提示錯誤提示錯誤提示</p>
+                                                                            </div>
+                                                                        </label>
+                                                                        <label  class="col-6 pl-20">
+                                                                            <p>比率 (%)</p>
+                                                                            <input class="form-control input" type="text" id="group-name" >
+                                                                            <div class="error-tip d-flex flex-column align-items-end">
+                                                                                <p>錯誤提示錯誤提示錯誤提示</p>
+                                                                            </div>
+                                                                        </label>
+                                                                    </div>
+                                                                </div>
+                                                        </div>
+                                                        <div class="d-flex flex-row flex-wrap mt-20">
+                                                            <label class="col-4">
+                                                                <p>持股目的/變動原因</p>
+                                                                <input class="form-control input" type="text" id="group-name" >
+                                                                <div class="error-tip d-flex flex-column align-items-end">
+                                                                    <p>錯誤提示錯誤提示錯誤提示</p>
+                                                                </div>
+                                                            </label>
+                                                            <label class="col-4 pl-20">
+                                                                    <label class="form-label mb-0" for="select2-multiple"><p>資金來源<em>*</em></p></label>
+                                                                    <select class="select2 form-select" id="source" multiple>
+                                                                        <optgroup label="Alaskan/Hawaiian Time Zone">
+                                                                        <option value="AK">Alaska</option>
+                                                                        <option value="HI">Hawaii</option>
+                                                                        </optgroup>
+                                                                        <optgroup label="Pacific Time Zone">
+                                                                        <option value="CA">California</option>
+                                                                        <option value="NV">Nevada</option>
+                                                                        <option value="OR">Oregon</option>
+                                                                        <option value="WA">Washington</option>
+                                                                        </optgroup>
+                                                                    </select>
+                                                                <div class="error-tip d-flex flex-column align-items-end">
+                                                                    <p>錯誤提示錯誤提示錯誤提示</p>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="d-flex flex-row justify-content-between flex-wrap mt-20 mb-10">
+                                                            <div class="d-flex flex-column col-5">
+                                                                <div class="d-flex flex-row justify-content-between">
+                                                                    <p>實質受益人/最終控制權人權人</p><button class="btn btn-outline-primary">新增一列</buttonv>
+                                                                </div>
+                                                                <div class="d-flex flex-column">
+                                                                    <div class="d-flex flex-row align-items-end"> 
+                                                                        <label class="col-4" for="" >
+                                                                            <p>BO類型</p>
+                                                                            <select class="form-select " id="BO-type-1"  >
+                                                                                <!-- OPTIONS EXAMPLE -->
+                                                                                <option data-label="primary" value="0" selected>BO類型一</option>
+                                                                            </select> 
+                                                                        </label>
+                                                                        <label class="col-4 ml-20" for="">
+                                                                            <p>BO名稱</p>
+                                                                            <input class="form-control input" id="BO-name-1"></input>  
+                                                                        </label>
+                                                                        <button class="col-1 btn btn-outline-primary btn-sm-block btn-s ml-20" id="">刪除</button>
+                                                                    </div>
+                                                                    <div class="error-tip">
+                                                                        <p>錯誤提示錯誤提示錯誤提示</p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="d-flex flex-column mt-10">
+                                                                    <div class="d-flex flex-row align-items-end"> 
+                                                                        <label class="col-4" for="" >
+                                                                            <p>BO類型</p>
+                                                                            <select class="form-select " id="BO-type-2" >
+                                                                                <!-- OPTIONS EXAMPLE -->
+                                                                                <option data-label="primary" value="0" selected>BO類型一</option>
+                                                                            </select>  
+                                                                        </label>
+                                                                        <label class="col-4 ml-20" for="">
+                                                                            <p>BO名稱</p>
+                                                                            <input class="form-control input" id="BO-name-2"></input>  
+                                                                        </label>
+                                                                        <button class="col-1 btn btn-outline-primary btn-sm-block btn-s ml-20" id="">刪除</button>
+                                                                    </div>
+                                                                    <div class="error-tip">
+                                                                        <p>錯誤提示錯誤提示錯誤提示</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="d-flex flex-column col-5">
+                                                                <div class="d-flex flex-row justify-content-between">
+                                                                    <p>信託持股帳號</p><button class="btn btn-outline-primary">新增一列</buttonv>
+                                                                </div>
+                                                                <div class="d-flex flex-column">
+                                                                    <div class="d-flex flex-row align-items-end justify-content-between"> 
+                                                                        <label class="d-flex flex-column col-4" for="">
+                                                                            <p>帳號</p>
+                                                                            <input class="form-control input" id=""></input>  
+                                                                        </label>
+                                                                        <button class="btn btn-outline-primary btn-sm-block btn-s ml-20" id="">刪除</button>
+                                                                    </div>
+                                                                    <div class="error-tip">
+                                                                        <p>錯誤提示錯誤提示錯誤提示</p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="d-flex flex-column mt-10">
+                                                                    <div class="d-flex flex-row align-items-end justify-content-between"> 
+                                                                        <label class="d-flex flex-column col-4" for="">
+                                                                            <p>帳號</p>
+                                                                            <input class="form-control input" id=""></input>  
+                                                                        </label>
+                                                                        <button class="btn btn-outline-primary btn-sm-block btn-s ml-20" id="">刪除</button>
+                                                                    </div>
+                                                                    <div class="error-tip">
+                                                                        <p>錯誤提示錯誤提示錯誤提示</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="modal-footer d-flex flex-row justify-content-center">
+                                                            <button type="submit" id="add-model-comfirm" class="btn btn-primary"
+                                                                data-bs-dismiss="modal">確定</button>
+                                                            <button type="button" id="add-model-cancel" class="btn btn-outline-secondary"
+                                                                data-bs-dismiss="modal">取消</button>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--END: Edit Modal -->
+                                        </div>
+                                        <div class="pl-10 pr-10">
+                                        <div class="divider w-100 bg-lt-gray mt-30">結構圖輸入</div>
+                                            <!--BEGIN: Upload Modal -->
+                                            <div class="modal fade" id="uploadModal" tabindex="-1" aria-labelledby="uploadModalTitle"
+                                            aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title" id="uploadModalTitle">上傳檔案</h5>
+                                                            <button type="button" class="btn-close" data-bs-dismiss="modal" ></button>
+                                                        </div>
+                                                        <div class="modal-body overflow">
+                                                            <div class="col-xl-12 row">
+                                                                <div class="col-xl-7">
+                                                                    <label class="form-control-sep-item col-xl-8">
+                                                                        <p>說明</p>
+                                                                        <input class="part-form-control input w-100" type="text" id="fill-date">
+                                                                        <div class="error-tip d-flex flex-column align-items-end">
+                                                                            <p>錯誤提示錯誤提示錯誤提示</p>
+                                                                        </div>
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xl-12 row">
+                                                                    <label class="form-control-sep-item col-xl-8 w-100">
+                                                                        <p class="mt-20">結構圖上傳</p>
+                                                                        <div class="d-flex flex-row justify-content-start align-items-start w-100">
+                                                                            <div class="d-flex flex-row justify-content-start w-100">
+                                                                                <div class="d-flex flex-column align-items-start w-100 relative">
+                                                                                    <div class="d-flex flex-row">
+                                                                                        <button type="button" id="select-files" class="btn btn-outline-primary mb-1">
+                                                                                            <i data-feather="file"></i> 新增檔案
+                                                                                        </button>
+                                                                                        <button type="button" id="clear-dropzone" class="btn btn-outline-primary mb-1 ml-10">
+                                                                                            <i data-feather="trash" class="me-25"></i>
+                                                                                            <span class="align-middle">清除</span>
+                                                                                        </button>
+                                                                                    </div>
+                                                                                    <!-- <form action="#" class="dropzone dropzone-area w-100" id="dpz-btn-select-files" >
+                                                                                        <div class="dz-message p-10">Drop files here or click button to upload.</div>
+                                                                                    </form> -->
+                                                                                    <p class="ft-dp-green">接受 .pdf, .png, .jpg 的檔案格式上傳</p>
+                                                                                    <div class="error-tip d-flex flex-column align-items-end">
+                                                                                        <p>錯誤提示錯誤提示錯誤提示</p>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </label>
+                                                            </div>
+                                                            <div class="modal-footer d-flex flex-row justify-content-center">
+                                                                <button type="submit" id="upload-model-comfirm" class="btn btn-primary"
+                                                                    data-bs-dismiss="modal">上傳</button>
+                                                                <button type="button" id="upload-model-cancel" class="btn btn-outline-secondary"
+                                                                    data-bs-dismiss="modal">取消</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--END: Upload Modal -->
+                                            <button type="button" class="btn btn-outline-primary mt-10" data-bs-toggle="modal"
+                                            data-bs-target="#uploadModal">新增檔案</button>
+                                        </div>
+                                        <div class="col-xl-12">
+                                            <div class="card-datatable pr-0 pl-10">
+                                                <table id="file" class="file-list-table table pr-0 table-responsive mt-10">
+                                                    <thead>
+                                                        <tr>
+                                                            <th style="width:3%"><div>項次</div></th>
+                                                            <th style="width:20%"><div>說明</div></th>
+                                                            <th style="width:20%"><div>檔案名稱</div></th>
+                                                            <th style="width:20%"><div>檔案大小</div></th>
+                                                            <th ><div>上傳時間</div></th>
+                                                            <th style="width:6%"><div>編輯</div></th>
+                                                            <th style="width:6%"><div>刪除</div></th>
+                                                            <th style="width:6%"><div>下載</div></th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr class="w-100">
+                                                            <td style="width:3%">1</td>
+                                                            <td style="width:22%">菜ＯＯ</td>
+                                                            <td style="width:20%">XXX_1.pdf</td>
+                                                            <td style="width:20%">86 KB</td>
+                                                            <td style="width:20%">2020-05-20 14:30:48</td>
+                                                            <td style="width:7%">
+                                                                <button type="button" id="btn-file-edit" class="btn btn-outline-primary list-edit m-10"   data-bs-toggle="modal"
+                                                                data-bs-target="#uploadModal">
+                                                                    編輯</button>
+                                                            </td>
+                                                            <td style="width:7%">
+                                                                <button type="button" id="btn-file-delete" class="btn btn-outline-primary list-edit"   data-bs-toggle="modal"
+                                                                data-bs-target="#relatorDeleteModal">
+                                                                    刪除</button>
+                                                            </td>
+                                                            <td style="width:5%">
+                                                                <a><i data-feather='download'></i></a>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                </div>
+                            </form>
+                            <div class="d-flex flex-row-reverse p-20">
+                                <div>
+                                    <button type="submit" id="btn--step2-submit" class="btn btn-primary ms-2" data-bs-toggle="modal"
+                                    data-bs-target="#relatorSubmitModal" >
+                                        送出</button>
+                                    <button type="button" id="btn-step2-save" class="btn btn-secondary ml-10" data-bs-dismiss="modal" >
+                                        暫存</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!--END: 關係人/成員群組 -->
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    
+
+    <!-- END: Content-->
+
+    <div class="sidenav-overlay"></div>
+    <div class="drag-target"></div>
+
+
+
+    <!-- BEGIN: Vendor JS-->
+    <script src="../../../assets/js/vendors.min.js"></script>
+    <script src="../../../assets/js/extensions/moment.min.js"></script>
+    <script src="../../../assets/js/core/tables/jquery.dataTables.min.js"></script>
+    <script src="../../../assets/js/core/tables/datatables.buttons.min.js"></script>
+    <script src="../../../assets/js/core/tables/dataTables.bootstrap5.min.js"></script>
+    <script src="../../../assets/js/core/forms/select/select2.full.min.js"></script>
+    <script src="../../../assets/js/core/forms/wizard/bs-stepper.min.js"></script>
+    <script src="../../../assets/js/core/forms/wizard/form-wizard.js"></script>
+    <script src="../../../assets/js/customizer.min.js"></script>
+    <script src="../../../assets/js/core/forms/pickers/picker.js"></script>
+    <script src="../../../assets/js/core/forms/pickers/picker.date.js"></script>
+    <script src="../../../assets/js/core/forms/file-uploaders/dropzone.min.js"></script>
+    <script src="../../../assets/js/core/forms/select/select2.full.min.js"></script>
+    <!-- BEGIN Vendor JS-->
+
+    <!-- BEGIN: Theme JS-->
+    <script src="../../../assets/js/core/app-menu.js"></script>
+    <script src="../../../assets/js/core/app.js"></script>
+    <script src="../../../assets/js/core/forms/pickers/flatpickr.min.js"></script>
+    <!-- END: Theme JS-->
+
+    <!-- BEGIN: Page JS-->
+    <script src="../../../assets/js/pages/input/app-bank-relator.js"></script>
+    <script src="../../../assets/js/core/forms/file-uploaders/form-file-uploader.js"></script>
+    <script src="../../../assets/js/core/forms/pickers/form-pickers.js"></script>
+    <script src="../../../assets/js/core/forms/select/form-select2.min.js"></script>
+    <!-- END: Page JS-->
+
+    <script>
+        $(window).on('load', function() {
+            if (feather) {
+                feather.replace({
+                    width: 14,
+                    height: 14
+                });
+            }
+        })
+    </script>
+</body>
+<!-- END: Body-->
+
+</html>

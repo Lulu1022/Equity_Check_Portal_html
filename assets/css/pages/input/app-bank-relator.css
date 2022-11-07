@@ -1,0 +1,169 @@
+.card {
+    box-shadow: 0 11px 14px 0 rgb(34 41 47 / 10%);
+}
+
+button {
+    height: 37px;
+}
+
+.tab-pane section:not(:last-child) {
+    max-width: 624px;
+    padding-right: 65px;
+}
+
+.tab {
+    padding-left: unset !important;
+    padding: 0.6rem !important;
+    margin: 0 6px;
+    font-size: 17px !important;
+    letter-spacing: normal !important;
+    color: #9c9c9c !important;
+    background-color: white;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 3px 2px 3px 0 rgb(34 41 47 / 5%);
+    box-shadow: inset 0 -3px 3px 0 rgb(34 41 47 / 5%);
+}
+
+.tab.active {
+    color: #636363 !important;
+    box-shadow: 3px 8px 8px 0 rgb(34 41 47 / 10%);
+}
+
+#test_wrapper {
+    min-width: 472px;
+}
+
+.form-control-item select {
+    width: 51%;
+}
+
+.vote {
+    width: 67px;
+}
+
+.form-control-sep-item {
+    margin-bottom: 4px;
+}
+
+.form-check-label {
+    margin-left: 5px;}
+
+.relative { 
+    position: relative; }
+
+.relative em {
+    position: absolute;
+    top: -5px;
+    right: -20px;
+}
+
+.dropzone .dz-message:before {
+    top: 16rem !important;
+}
+
+.modal-body.warn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal-body.warn svg {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 15px;
+    color: #C8161D;
+}
+
+#bank-submit-model-comfirm {
+    height: 38.28px;
+}
+
+.modal-dialog.dialog-xl {
+    max-width: 824px;
+}
+
+div.flex-row > p~button {
+    height: 30px;
+    padding: 3px 5px;
+}
+
+div.flex-row > label~button {
+    width: 72px;
+}
+
+.bank-list-table tbody,
+.relator-list-table tbody,
+.file-list-table tbody {
+    display: block;
+    height: fit-content;
+    margin-right: 13px;
+    overflow: auto;
+}
+
+.bank-list-table thead,
+.bank-list-table tbody tr,
+.relator-list-table thead,
+.relator-list-table tbody tr,
+.file-list-table thead,
+.file-list-table tbody tr {
+    display: table;
+    table-layout: fixed; /* even columns width , fix width of table too */
+}
+
+.relator-list-table thead,
+.file-list-table thead {
+    width: calc( 100% - 1em )/* scrollbar is average 1em/16px width, remove it from thead width */
+}
+
+.bank-list-table {
+    max-height: 746px;
+    height: fit-content;}
+
+.relator-list-table tbody {
+    max-height: 300px;}
+
+.bank-list-table tbody {
+    max-height: 700px;}
+
+.file-list-table tbody {
+    max-height: 300px;}
+
+table.relator-list-table th,
+table.file-list-table th,
+table.bank-list-table th {
+    vertical-align: middle;
+    white-space: nowrap;
+    height: 44px;
+    padding: 5px;} 
+
+table.relator-list-table.dataTable>thead>tr>th:not(.sorting_disabled),
+table.file-list-table.dataTable>thead>tr>th:not(.sorting_disabled),
+table.bank-list-table.dataTable>thead>tr>th:not(.sorting_disabled) {
+    padding-right: 5px;}
+
+.relator-list-table tr div,
+.file-list-table tr div,
+.bank-list-table tr div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
+    margin: 0 auto;
+    min-width: 30px;
+    white-space: nowrap;}
+
+.relator-list-table.table > :not(caption) > * > *,
+.file-list-table.table > :not(caption) > * > *,
+.bank-list-table.table > :not(caption) > * > * {
+    padding: 1px;}
+
+.relator-list-table.table tbody td > input {
+    min-width: 80px;}
+
+.list-edit {
+    width: 58px;
+    padding: 0.786rem 1rem}
+
+.select2-selection {
+    display: none;
+}

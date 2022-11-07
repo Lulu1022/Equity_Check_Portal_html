@@ -1,0 +1,81 @@
+.card {
+    box-shadow: none;
+    background-color: transparent;
+}
+
+#card-content-types {
+    border: 1px solid #EBE9F1;
+    border-radius: 6px;}
+
+#card-content-types .card {
+    margin: 20px;
+}
+
+section > div:first-child {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #EBE9F1;
+    border-radius: 6px 6px 0 0;
+}
+
+section .cards-container {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #EBE9F1;
+    border-radius: 6px;
+    box-shadow: 0 4px 24px 0 rgb(34 41 47 / 10%);}
+
+section > div:first-of-type svg {
+    cursor: pointer;
+    margin-right: 10px;
+    width: 28px;
+    height: 28px;}
+
+section > div:first-child svg:hover {
+    opacity: 0.5;}
+
+section > div:first-child h4 {
+    font-weight: normal;}
+
+.cards-container {
+    background-color: #FFFFFF;
+    border-radius: 6px;
+}
+
+.cards-container input {
+    border: none;
+    height: 50px;
+    line-height: 50px;
+    outline: none;
+    border-radius: 6px 6px 0 0;}
+
+.cards-container textarea:disabled,
+.cards-container input:disabled {
+    color: #636363;
+}
+
+.cards-container > div:first-child {
+    border-bottom: 1px solid #EBE9F1;}
+
+.cards-container div:nth-of-type(2) {
+    border-radius: 0 0 6px 6px;}
+
+.cards-container > div > p {
+    color: #B9B9C3;
+    width: 155px;}
+
+.cards-container textarea {
+    border: none;
+    outline: none;
+    border-radius: 6px;}
+
+.card .on-edit {
+    box-shadow: inset  3px 3px 3px 0 rgba(187, 187, 187, 0.5);}
+
+.card .on-edit input,
+.card .on-edit textarea {
+    color: #424242;}
+
+.card .fade-content input,
+.card .fade-content textarea {
+    color: #B9B9C3;}
+
+

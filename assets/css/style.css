@@ -1,0 +1,250 @@
+.m-0 {margin: 0;} .m-20 {margin: 20px;}
+.ml-30 {margin-left: 30px !important; } .ml-20 {margin-left: 20px;} .ml-10 {margin-left: 10px;} .ml-5 {margin-left: 5px;} .ml-0 {margin-left: 0;}
+.mt-10 {margin-top: 10px;} .mt-15 {margin-top: 15px;} .mt-20 {margin-top: 20px;} .mt-30 {margin-top: 30px !important;}
+.mb-30 {margin-bottom: 30px;} .mb-20 {margin-bottom: 20px;} .mb-10 {margin-bottom: 10px;} .mb-0 {margin-bottom: 0;}
+.mr-30 {margin-right: 30px !important;} .mr-20 {margin-right: 20px;} .mr-10 {margin-right: 10px;} 
+.p-30 {padding: 30px;} .p-20 {padding: 20px;} .p-10 {padding: 10px;} 
+.pl-0 {padding-left: 0 !important;} .pl-5 {padding-left: 5px;} .pl-10 {padding-left: 10px;} .pl-20 {padding-left: 20px;} .pl-30 {padding-left: 30px;}  
+.pl-32 {padding-left: 32px;}
+.pr-0 {padding-right: 0px;} .pr-10 {padding-right: 10px;} .pr-20 {padding-right: 20px;} .pr-30 {padding-right: 30px;}
+.pb-10 {padding-bottom: 10px !important;} .pb-20 {padding-bottom: 20px !important;} .pb-30 {padding-bottom: 30px !important;}
+.pt-0 {padding-top: 0px !important;} .pt-10 {padding-top: 10px !important;} .pt-20 {padding-top: 20px !important;} .pt-30 {padding-top: 30px !important;}
+
+.t-indent--1 {text-indent: -1em;}.t-indent--2 {text-indent: -2em;}
+
+
+div > h3~svg {
+    width: 22px !important;
+    height: 22px !important;
+}
+
+.nav-link {
+    padding-left: 20px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+html .content.app-content {
+    padding: 0.3rem 2rem 0;
+}
+
+.user-config {
+    padding-left: 0 !important;
+}
+
+.brand-logo {
+    height: 48px;
+    background-image: url("../../../assets/images/icon/TDCC_horizontal_icon.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.navbar-brand {
+    width: 175px;
+    height: 48px;
+    background-image: url("../../../assets/images/icon/TDCC_horizontal_icon.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+li.nav-item > div > a > svg {
+    margin-right: 10px;
+}
+
+ /* first layer sub-menu title */
+.menu-content li div:first-child {
+    padding: 7px 15px 7px 40px;
+}
+
+.fixed-item {
+    padding-left: 37px !important;
+}
+
+li.nav-item > div {
+    padding-left: 41px;
+}
+
+.menu-content li a em,
+.menu-content li div em  {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+#enable-select {
+    background: transparent !important;
+    box-shadow: none;
+}
+
+label p {
+    margin-bottom: 0.28rem;
+}
+
+.form-label p {
+    font-size: 1rem;
+
+}
+
+p {
+    margin-bottom: 8px;
+}
+
+p em,
+th em {
+    font-size: 1.3rem;
+    color: red;
+}
+
+.board {
+    padding: 7px 14px;
+    border-radius: 5px;
+}
+
+.part-form-control {
+    display: block;
+    padding: 0.571rem 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.45;
+    color: #6e6b7b;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #d8d6de;
+    appearance: none;
+    border-radius: 0.357rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control-item {
+    width: 100%;
+    margin-bottom: 4px;
+}
+
+.form-control-item input:not(:checked):hover {
+    background-color: #F3F2F7;
+}
+
+.form-control-item input.error,
+.form-control-sep-item input.error,
+textarea.error {
+    border: 1.5px solid red;
+    box-sizing: border-box;
+}
+
+.form-control-item div input~em,
+.form-control-item div > div~em,
+.form-control-sep-item div input~em,
+.form-control-sep-item div > div~em {
+    margin-left: 5px;
+    font-style: normal;
+}
+
+.board p {
+    color: rgb(51, 51, 51);
+}
+
+.divider {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 3px;
+    color: #4B4B4B;
+    border-radius: 5px;
+}
+
+.overflow {
+    overflow: auto;
+}
+
+.btn-s {
+    padding: 0.486rem 1rem;
+}
+
+.btn-flat {
+    font-size: 13px;
+    font-weight: 400;
+    padding: 0.6rem 2.5rem;
+}
+
+.printer svg {
+    position: absolute;
+    right: 13px;
+    top: 13px;
+    height: 26px;
+    width: 26px;
+}
+
+
+.modal-body.warn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal-body.warn svg {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 15px;
+    color: #C8161D;
+}
+
+.table-label-container {
+    flex-wrap: wrap;
+}
+
+.table-label {
+    width: fit-content;
+    padding: 2px 11px;
+    margin: 3px 5px;
+    font-weight: 700;
+    white-space: nowrap;
+    color: white;
+    border-radius: 13px;
+    background-color: #002870;
+}
+
+table th > div {
+    white-space: nowrap;
+    text-align: center;
+}
+
+tbody {
+    border: 1px solid #dfdfdf
+}
+
+table th {
+    border: 1px solid #B9B9B9;}
+
+table td svg {
+    width: 19px !important;
+    height: 19px !important;
+}
+
+.text-nowrap {
+    white-space: nowrap;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.radio-in-article .form-check-input[type="radio"] {
+    border-radius: 0;
+    width: 10px;
+    height: 10px;
+    vertical-align: baseline;
+}
+
+.sorting_disabled::before,
+.sorting_disabled::after {
+    content:none !important;
+}
+
+div.error-tip > p {
+    margin: 0;
+    color: red
+}
+
+
